@@ -26,6 +26,7 @@ RUN npm install -g docsify-cli@latest
 ENV DEBUG 0
 ENV PORT 8080
 EXPOSE 8080
+EXPOSE 35729
 
 # Use docsify user's home directory as our working area
 WORKDIR /home/docsify
