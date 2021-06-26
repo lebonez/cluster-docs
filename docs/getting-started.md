@@ -9,7 +9,7 @@ The campus cluster (CC) is the SIUE's general use high-performance computing clu
 The following graphic depicts the SIUE ITS cyberinfrastructure and how different systems interact with one another:
 
 <p align="center">
-  <img src="_media/cyberinfrastructure.png" alt="SIUE Cyberinfrastructure", width="50%"/>
+  <img src="_media/cyberinfrastructure.png" alt="SIUE Cyberinfrastructure", width="800px"/>
 </p>
 
 
