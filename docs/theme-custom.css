@@ -1,5 +1,7 @@
 :root {
-      --sidebar-nav-link-before-content             : '';
+      /* --cover-background-color: rgba(150, 150, 150, 1); */
+      --theme-color: red;
+      /* --sidebar-nav-link-before-content             : ''; */
       /* --sidebar-nav-link-before-content--active     : '-';
       --sidebar-nav-link-before-content-l1          : '-';
       --sidebar-nav-link-before-content-l1--active  : '-';
@@ -24,7 +26,7 @@
   --selection-color: red;
   --theme-color: red;
   --zoomimage-overlay-background: rgba(255, 255, 255, 1);
-  --cover-background-image: radial-gradient(ellipse at center 115%, rgba(255, 255, 255, 0.9), transparent);;
+  --cover-background-image: '_media/bg.png';
   --cover-background-color: rgba(150, 150, 150, 1);
   --link-border-bottom                : ;
   --link-border-bottom--hover         : ;

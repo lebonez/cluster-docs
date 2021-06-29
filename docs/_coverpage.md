@@ -5,5 +5,8 @@
 > Campus cluster user documentation
 
 [Read More](#user-guides)
+[GitHub](https://github.com/SIUE-ITS/cluster-docs/)
 
-![color](#f0f0f0)
+![](_media/bg.png)
+
+<!-- ![color](#fff0f0) -->
