@@ -3,7 +3,7 @@ This guide will help you get started with the SIUE's campus computing cluster by
 
 An SIUE account is required to log in to and use SIUE resources.
 
-#### Overview
+### Overview
 The campus cluster (CC) is the SIUE's general use high-performance computing cluster, which is a collection of computers and disk arrays that are connected via fast networks. CC allows SIUE researchers to perform computing tasks, like data analyses and simulations, on a larger scale than is possible with a laptop or lab computer.
 
 The following graphic depicts the SIUE ITS cyberinfrastructure and how different systems interact with one another:
@@ -13,7 +13,7 @@ The following graphic depicts the SIUE ITS cyberinfrastructure and how different
 </p> -->
 ![cyberinfrastructure](_media/cyberinfrastructure.png ':size=900')
 
-#### Cyberinfrastructure overview
+### Cyberinfrastructure overview
 
 When using CC, you will notice several differences from your desktop or laptop environment:
 
@@ -21,7 +21,7 @@ When using CC, you will notice several differences from your desktop or laptop e
 * CC uses the Ubuntu Linux operating system (not macOS or Windows)
 * You submit your programs to a remote batch processing system, or job scheduler, to run them
 
-#### Workflow
+### Workflow
 The workflow for using CC typically consists of the following steps:
 
 1. Logging in to the login node
@@ -32,7 +32,7 @@ The workflow for using CC typically consists of the following steps:
 6. Submitting your job to the job scheduler to run it remotely on a compute node
 7. Monitoring your job and checking the results when it has completed
 
-#### Logging in to the login node
+### Logging in to the login node
 To log in to the CC login node (also known as the head node), you will need to use a secure shell client. This is a small application that enables you to connect to a remote computer via SSH (Secure Shell), a cryptographic network protocol for securely operating network services. You will need your SIUE e-ID and password to SSH into the login node.
 
 <details>
@@ -83,7 +83,7 @@ If you are having difficulty using your SIUE e-ID and/or password, please contac
 
 !>  Note: The login node is a shared resource that is used by many users simultaneously. Be careful not to do tasks on the login node that will negatively impact other users, or we may terminate your process without warning. You may run small tests on the login node, but beyond that you should use the compute nodes.
 
-#### Organizing files
+### Organizing files
 **File systems**  
 There are three directories where SIUE users can store files and run programs: home, group, and scratch.
 
@@ -140,7 +140,7 @@ There are three directories where SIUE users can store files and run programs: h
 
 </details>
 
-#### Transferring files
+### Transferring files
 SIUE has a dedicated data transfer node at `dtn.hpc.siue.edu`.The DTN is configured for fast file transfers. The node is a [Globus endpoints](transferring-files-globus.md). To access these nodes, use `@dtn.hpc.siue.edu` instead of the normal login node (@login.hpc.siue.edu) when logging in:
 
 `ssh <username>@dtn.hpc.siue.edu`  
@@ -161,7 +161,7 @@ Helpful links:
 - [curl](https://curl.haxx.se/docs/manpage.html)
 - [git clone](https://git-scm.com/docs/git-clone)
 
-#### Creating and editing files
+### Creating and editing files
 You can always create files on your personal computer and transfer them to CC, but sometimes it is easier to create them directly on CC. For plain-text files, you can use the `nano`, `micro`, `vim`, or `emacs` text editors. We recommend the micro editor for new users; Vim and Emacs both have steeper learning curves, but you may eventually find them more useful and productive.
 
 Links to text editors' webpages:
@@ -175,7 +175,7 @@ To create a new file, simply enter the editor name as the command (e.g., `micro`
 
 To edit an existing file, enter the editor name as the command and then the path to the file as the argument (e.g., `micro script.R`).
 
-#### Installing and running software
+### Installing and running software
 Once you are logged in, you can use software, work with files, run brief tests, or submit Slurm job scripts to the job queue.
 
 !>  Note: The login node is a shared resource that is used by many users simultaneously. Be careful not to do tasks on the login node that will negatively impact other users, or we may terminate your process without warning. You may run small tests on the login node, but beyond that you should use the compute nodes.
@@ -213,7 +213,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
 </details>
 
 
-#### Jobs
+### Jobs
 A job consists of all the data, commands, scripts, and programs that will be used to obtain results.
 
 <details>
@@ -327,5 +327,5 @@ A job consists of all the data, commands, scripts, and programs that will be use
 
 </details>
 
-#### Getting help
+### Getting help
 If you need additional assistance getting started with the CC, please contact its-cluster-support@siue.edu.
