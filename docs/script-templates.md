@@ -1,1 +1,1 @@
-Scritp Templates
+# Script Templates
