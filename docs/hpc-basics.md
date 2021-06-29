@@ -1,4 +1,4 @@
-# HPC Basics
+# HPC Basics <!-- {docsify-ignore-all} -->
 High-performance computing (HPC) aggregates the resources from individual computers (known as nodes) into a cluster that works together to perform advanced, specialized computing jobs. The ITS Cyberinfrastructure team launched its new general-purpose high-performance campus computing cluster in August 2021,  For more information on HPC, see our High-Performance Computing page.
 
 # Campus Cluster

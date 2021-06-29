@@ -8,10 +8,10 @@ The campus cluster (CC) is the SIUE's general use high-performance computing clu
 
 The following graphic depicts the SIUE ITS cyberinfrastructure and how different systems interact with one another:
 
-<p align="center">
+<!-- <p align="center">
   <img src="_media/cyberinfrastructure.png" alt="SIUE Cyberinfrastructure", width="800px"/>
-</p>
-
+</p> -->
+![cyberinfrastructure](_media/cyberinfrastructure.png ':size=900')
 
 #### Cyberinfrastructure overview
 
@@ -35,7 +35,7 @@ The workflow for using CC typically consists of the following steps:
 #### Logging in to the login node
 To log in to the CC login node (also known as the head node), you will need to use a secure shell client. This is a small application that enables you to connect to a remote computer via SSH (Secure Shell), a cryptographic network protocol for securely operating network services. You will need your SIUE e-ID and password to SSH into the login node.
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>SSH login: macOS and Linux</b>
   </summary>
@@ -52,7 +52,7 @@ To log in to the CC login node (also known as the head node), you will need to u
 
 </details>
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>SSH login: Window</b>
   </summary>
@@ -71,7 +71,7 @@ To log in to the CC login node (also known as the head node), you will need to u
 >
 > - Note: There will be no visual feedback as you enter your password. This is a security feature designed to obscure your password and is expected.
 >
-> There are two ways to connect using MobaXterm. If you prefer the command-line interface, select "Start local terminal" and follow the instructions above using the Windows Terminal. If you prefer a GUI interface, select the icon "Session" on the top left corner (or, Sessions > New Session from the menu at the very top of the window). When prompted to choose a session type, choose "SSH." Under "Basic SSH Settings" enter login.hpc.siue.edu as "Remote Host" and enter your SIUE e-ID as the username after checking "Specify Username". Keep the port as 22. There are additional settings below that you may want to adjust as necessary, particularly the Bookmark settings if you want a shortcut. Click OK to open your SSH session. Enter your SIUE e-ID password when prompted for a password\\
+> There are two ways to connect using MobaXterm. If you prefer the command-line interface, select "Start local terminal" and follow the instructions above using the Windows Terminal. If you prefer a GUI interface, select the icon "Session" on the top left corner (or, Sessions > New Session from the menu at the very top of the window). When prompted to choose a session type, choose "SSH." Under "Basic SSH Settings" enter login.hpc.siue.edu as "Remote Host" and enter your SIUE e-ID as the username after checking "Specify Username". Keep the port as 22. There are additional settings below that you may want to adjust as necessary, particularly the Bookmark settings if you want a shortcut. Click OK to open your SSH session. Enter your SIUE e-ID password when prompted for a password.
 >
 > If you are having issues with the MobaXterm SSH session disconnecting due to timeout/inactivity, click the "Settings" icon from the top menu. Then click to the SSH tab and under "SSH Settings" make sure to check "SSH keepalive" and then click OK. Restart MobaXterm and try again.
 
@@ -81,13 +81,13 @@ You can find instructions for setting up SSH keys for faster login [here](setup-
 
 If you are having difficulty using your SIUE e-ID and/or password, please contact help@siue.edu.
 
-> Note: The login node is a shared resource that is used by many users simultaneously. Be careful not to do tasks on the login node that will negatively impact other users, or we may terminate your process without warning. You may run small tests on the login node, but beyond that you should use the compute nodes.
+!>  Note: The login node is a shared resource that is used by many users simultaneously. Be careful not to do tasks on the login node that will negatively impact other users, or we may terminate your process without warning. You may run small tests on the login node, but beyond that you should use the compute nodes.
 
 #### Organizing files
 **File systems**  
 There are three directories where SIUE users can store files and run programs: home, group, and scratch.
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Home directory</b>
   </summary>
@@ -103,7 +103,7 @@ There are three directories where SIUE users can store files and run programs: h
 >We keep one week of daily snapshots for /home. You can think of these snapshots as semi-backups, meaning that if you accidentally deleted some data we would be able to recover it within one week. If the file was created and deleted within a one-day period, then the snapshot might not be recoverable. You should always keep extra backups of your important data and other files because of this.
 
 </details>
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Group file system</b>
   </summary>
@@ -121,7 +121,7 @@ There are three directories where SIUE users can store files and run programs: h
 
 </details>
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Scratch file system</b>
   </summary>
@@ -178,9 +178,9 @@ To edit an existing file, enter the editor name as the command and then the path
 #### Installing and running software
 Once you are logged in, you can use software, work with files, run brief tests, or submit Slurm job scripts to the job queue.
 
-> Note: The login node is a shared resource that is used by many users simultaneously. Be careful not to do tasks on the login node that will negatively impact other users, or we may terminate your process without warning. You may run small tests on the login node, but beyond that you should use the compute nodes.
+!>  Note: The login node is a shared resource that is used by many users simultaneously. Be careful not to do tasks on the login node that will negatively impact other users, or we may terminate your process without warning. You may run small tests on the login node, but beyond that you should use the compute nodes.
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Using SIUE-installed software</b>
   </summary>
@@ -201,7 +201,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
 
 </details>
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Installing your own software</b>
   </summary>
@@ -216,7 +216,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
 #### Jobs
 A job consists of all the data, commands, scripts, and programs that will be used to obtain results.
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Running your job</b>
   </summary>
@@ -232,7 +232,7 @@ A job consists of all the data, commands, scripts, and programs that will be use
 > The compute resources on CC are shared across many projects and users. When a user submits a job with Slurm, resources are divided using a fair share algorithm.
 
 </details>
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Testing your job</b>
   </summary>
@@ -251,7 +251,7 @@ A job consists of all the data, commands, scripts, and programs that will be use
 
 </details>
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Submitting your job</b>
   </summary>
@@ -293,7 +293,7 @@ A job consists of all the data, commands, scripts, and programs that will be use
 
 </details>
 
-<details style="font-size:14px;">
+<details>
   <summary>
     <b>Monitoring your job</b>
   </summary>
