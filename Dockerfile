@@ -24,8 +24,8 @@ RUN apt-get install curl -y \
 RUN npm install -g docsify-cli@latest
 
 ENV DEBUG 0
-ENV PORT 8080
-EXPOSE 8080
+ENV PORT 3000
+EXPOSE 3000
 EXPOSE 35729
 
 # Use docsify user's home directory as our working area
