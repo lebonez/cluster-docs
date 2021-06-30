@@ -85,7 +85,7 @@ If you are having difficulty using your SIUE e-ID and/or password, please contac
 
 ### Organizing files
 **File systems**  
-There are three directories where SIUE users can store files and run programs: home, group, and scratch.
+There are three directories where SIUE users can store files and run programs: home, project, and scratch.
 
 <details>
   <summary>
@@ -105,19 +105,19 @@ There are three directories where SIUE users can store files and run programs: h
 </details>
 <details>
   <summary>
-    <b>Group file system</b>
+    <b>Project file system</b>
   </summary>
 
-> Group directories are by request only. To request a group directory contact its-cluster-support@siue.edu.
+> Project directories are by request only. To request a project directory contact its-cluster-support@siue.edu.
 >
 >
-> Each group member has access to their group's directory, where they can store data, scripts, and related files. The group file system should be used for most of your SIUE work, It's also where you can collaborate with your research group. Users can be affiliated and have access to multiple group directories.
+> Each project member has access to their project's directory, where they can store data, scripts, and related files. The project file system should be used for most of your SIUE work, It's also where you can collaborate with your research project. Users can be affiliated and have access to multiple project directories.
 >
-> A group directory can be located by typing:
+> A project directory can be located by typing:
 >
-> ```/group/<group_name>```
+> ```/project/<project_name>```
 >
-> `<group_name>` is the unique name requested by the owner.
+> `<project_name>` is the unique name requested by the owner.
 
 </details>
 
@@ -145,7 +145,7 @@ SIUE has a dedicated data transfer node at `dtn.hpc.siue.edu`.The DTN is configu
 
 `ssh <username>@dtn.hpc.siue.edu`  
 
-Remember to always transfer files into your home or group directories where you have sufficient disk space.
+Remember to always transfer files into your home or project directories where you have sufficient disk space.
 
 For more information on transferring files between your local machine and the CC cluster, see the [Data Management and File Transfers](data-management.md) user guides.
 
