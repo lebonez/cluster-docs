@@ -1,6 +1,8 @@
 Docsify Server
 ==============
 
+If looking for the docs webpage go [here](https://cluster-docs.isg.siue.edu/)
+
 ## Building locally
 
 After cloning this repo.
