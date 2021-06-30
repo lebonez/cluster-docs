@@ -1,6 +1,6 @@
 ![logo](_media/logo.png)
 
-[Read More](#user-guides)
+[Read More](README.md)
 [GitHub](https://github.com/SIUE-ITS/cluster-docs/)
 
 
