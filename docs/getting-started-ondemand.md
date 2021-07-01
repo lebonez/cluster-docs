@@ -59,14 +59,13 @@ Most file operations can be accomplished by selecting a file in the File Explore
 
 > You have the ability to perform the following file operations in OnDemand:
 >
-> - View
-> - Edit
-> - Rename/Move
-> - Download
-> - Copy
-> - Paste
-> - (Un)Select All
-> - Delete
+> - Open in Terminal (go directly to the directory containg the file in the web terminal shell)
+> - New File (create a new blank file)
+> - New Directory (create a new empty directory)
+> - Upload (upload a file form your local computer)
+> - Download (check box of file to download before clicking)
+> - Copy/Move (used to rename and copy files)
+> - Delete (deletes file permanently **be careful**)
 
 ### Jobs
 OnDemand provides two related job management tools. The Active Jobs tool allows you to monitor queued and running jobs and the Job Composer tool allows you to create and submit jobs via your web browser.
