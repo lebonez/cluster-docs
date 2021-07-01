@@ -12,9 +12,7 @@ Recommended workflow for beginners to contribute by using the Github website all
 
 ![Github Docs](_media/github/github_docs.png ':size=50%')
 
-### 2. You can now edit or add a file.
-
-> Add a file:
+### 2. Add a file.
 
 ![Github Add File](_media/github/github_add_file.png ':size=50%')
 
@@ -31,6 +29,8 @@ Recommended workflow for beginners to contribute by using the Github website all
 > The final step is to commit and start a pull request. Add a name to the commit, an optional description, and a branch name for the pull request. Then finally click `Propose new file`:
 
 ![Github Add File Commit](_media/github/github_add_file_commit.png ':size=50%')
+
+### 3. Edit a file.
 
 > Edit a file by clicking the file you would like to edit (in this example the contributing page):
 
@@ -52,7 +52,7 @@ Recommended workflow for beginners to contribute by using the Github website all
 
 ![Github Edit File Commit](_media/github/github_edit_file_commit.png ':size=50%')
 
-### 3. Upload images (or other files).
+### 4. Upload images (or other files).
 > If your new content page or edit requires embedding images (or other files) you will want to upload the files to the `docs/_media` directory:
 
 ![Github Upload Media Directory](_media/github/github_upload_media_directory.png ':size=50%')
@@ -67,6 +67,6 @@ Recommended workflow for beginners to contribute by using the Github website all
 
 ![Github Upload Media Content](_media/github/github_upload_media_content.png ':size=50%')
 
-### Additional help or info
+### 5. Additional help or info
 - Contact its-cluster-support@siue.edu for help with contributing.
 - A lot of documentation exists online for using Github it is recommended reading especially if you'd like to edit the cluster-docs repo locally.
