@@ -7,6 +7,13 @@
   - [Slurm Job Script Templates](script-templates.md)
   - [Getting Started with SIUE OnDemand](getting-started-ondemand.md)
 - [Data Management](data-management.md)
+  - [Storage File Systems](storage-file-systems.md)
+  - [File Transfer Overview](file-transfer-overview.md)
+  - [Managing Files Using the Command Line](manage-files-command-line.md)
+  - [Transferring Files Using the Command Line](transfer-files-command-line.md)
+  - [Transferring Files Using a Graphical User Interface](transfer-files-gui.md)
+  - [Transferring Files Using Globus](transfer-files-globus.md)
+  - [Transferring Files Using rclone](transfer-files-rclone.md)
 - [Software and Programming](software-and-programming.md)
 ***
 - [Tutorials](tutorials.md)
