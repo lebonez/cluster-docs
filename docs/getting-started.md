@@ -8,9 +8,6 @@ The campus cluster (CC) is the SIUE's general use high-performance computing clu
 
 The following graphic depicts the SIUE ITS cyberinfrastructure and how different systems interact with one another:
 
-<!-- <p align="center">
-  <img src="_media/cyberinfrastructure.png" alt="SIUE Cyberinfrastructure", width="800px"/>
-</p> -->
 ![cyberinfrastructure](_media/cyberinfrastructure.png ':size=900')
 
 ### Cyberinfrastructure overview
@@ -136,12 +133,12 @@ There are three directories where SIUE users can store files and run programs: h
 >
 > `/scratch` has a capacity of 500GB to 1TB depending on the node. These directories should only be used for temporary files that are dependent on a currently running job.
 >
-> - Note: The login node does not have a `/scratch` directory.
+> ?> Note: The login node does not have a `/scratch` directory.
 
 </details>
 
 ### Transferring files
-SIUE has a dedicated data transfer node at `dtn.hpc.siue.edu`.The DTN is configured for fast file transfers. The node is a [Globus endpoints](transferring-files-globus.md). To access these nodes, use `@dtn.hpc.siue.edu` instead of the normal login node (@login.hpc.siue.edu) when logging in:
+SIUE has a dedicated data transfer node at `dtn.hpc.siue.edu`.The DTN is configured for fast file transfers. The node is a [Globus endpoints](transferring-files-globus.md). To access these nodes, use `@dtn.hpc.siue.edu` instead of the normal login node (`@login.hpc.siue.edu`) when logging in:
 
 `ssh <username>@dtn.hpc.siue.edu`  
 

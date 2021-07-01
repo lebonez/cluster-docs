@@ -15,5 +15,5 @@ Each partition has a different mix of compute nodes. The table below describes t
 
 | Partition	| Nodes	| CPUs |	Memory (GB)	| CPU type |	CPU freq |	GPU type |
 | --- | --- |--- | --- | --- | --- | --- |
-| CPU |	8	| 32	| 128	| EPYC-7F52	| 3.5 GHz | None |
-| GPU | 4 | 64 | 256 | EPYC-7502 | 2.5 GHz | A100 |
+| CPU |	8	| 32	| 256	| EPYC-7F52	| 3.5 GHz | None |
+| GPU | 4 | 64 | 512 | EPYC-7502 | 2.5 GHz | A100 |
