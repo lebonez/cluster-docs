@@ -203,7 +203,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
     <b>Installing your own software</b>
   </summary>
 
-> Researchers are encouraged to install any software, libraries, and packages necessary for their work. Consult the software's documentation on how to install from source or with pre-built binaries. Additionally, for a more controlled and portable computing environment, consider using a [Singularity container](https://singularity.lbl.gov/) for your software builds.
+> Researchers are encouraged to install any software, libraries, and packages necessary for their work. Consult the software's documentation on how to install from source or with pre-built binaries. Additionally, for a more controlled and portable computing environment, consider using a [Singularity container](https://singularity.hpcng.org/user-docs/master/) for your software builds.
 >
 > For more information on installing software, see the [Software and Programming user guides](software-and-programming.md).
 

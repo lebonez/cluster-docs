@@ -144,9 +144,9 @@ SIUE file systems (/home, /project) can be accessed using the OnDemand File Expl
 ### Interactive apps
 The Interactive Apps section of OnDemand is a selection of apps that range from a complete desktop VNC session to a Jupyter Lab web browser session.
 
-- CC Cluster Desktop
-- MATLAB
-- Jupyter
+- [CC Cluster Desktop](desktop-environment.md)
+- [MATLAB](interactive-matlab.md)
+- [Jupyter](jupyter-lab.md)
 
 ![Interactive Apps Links](_media/ondemand/interactive_apps_links.png)
 
