@@ -154,7 +154,7 @@ Although the `/home` and `/project` file systems have some file recovery capabil
 - Cloud storage
 - Research data repositories
 
-To transfer files to local or cloud storage, see our guide for [Transferring Files Using the Command Line](transfer-files-command-line.md). Rsync is especially useful for syncing to a backup directory on local storage, and [Rclone](transfer-files-rclone.md) works similarly for cloud storage. For large transfers to local or cloud storage, [Globus](transfer-files-globus.md) can sync two directories in a similar manner.
+To transfer files to local or cloud storage, see our guide for [Transferring Files Using the Command Line](user_guides/transfer-files-command-line.md). Rsync is especially useful for syncing to a backup directory on local storage, and [Rclone](user_guides/transfer-files-rclone.md) works similarly for cloud storage. For large transfers to local or cloud storage, [Globus](user_guides/transfer-files-globus.md) can sync two directories in a similar manner.
 
 Research data repositories, such as [OSF](https://osf.io/), [Zenodo](https://zenodo.org/), [Harvard Dataverse](https://dataverse.harvard.edu/), and [Dryad](https://datadryad.org/stash), are a special type of cloud storage intended for sharing research data with the wider research community. These services typically have an API that can be used at the command line to upload files directly from SIUE systems.
 

@@ -125,7 +125,7 @@ Currently, you must reload the page to see job status changes.
 
 ### Shell access
 
-OnDemand provides the ability SSH into the [campus cluster](getting-started.md) from inside your web browser:
+OnDemand provides the ability SSH into the [campus cluster](user_guides/getting-started.md) from inside your web browser:
 
 ![Shell Links](_media/ondemand/shell_links.png ':size=900')
 
@@ -137,16 +137,16 @@ To access the campus cluster:
 
 ![Shell Prompt](_media/ondemand/shell_prompt.png ':size=900')
 
-Shell access will be connected to the campus cluster login node. For detailed information on the campus cluster, see the [Getting Started](getting-started.md) user guide.
+Shell access will be connected to the campus cluster login node. For detailed information on the campus cluster, see the [Getting Started](user_guides/getting-started.md) user guide.
 
 SIUE file systems (/home, /project) can be accessed using the OnDemand File Explorer - see the "[Files](#files)" section above.
 
 ### Interactive apps
 The Interactive Apps section of OnDemand is a selection of apps that range from a complete desktop VNC session to a Jupyter Lab web browser session.
 
-- [CC Cluster Desktop](desktop-environment.md)
-- [MATLAB](interactive-matlab.md)
-- [Jupyter](jupyter-lab.md)
+- [CC Cluster Desktop](user_guides/desktop-environment.md)
+- [MATLAB](user_guides/interactive-matlab.md)
+- [Jupyter](user_guides/jupyter-lab.md)
 
 ![Interactive Apps Links](_media/ondemand/interactive_apps_links.png)
 

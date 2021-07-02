@@ -1,4 +1,3 @@
-<!-- _navbar.md -->
-* [User Guides](README.md)
+* [User Guides](user_guides/README.md)
 * [User Support](user-support.md)
-* [Contributing](contributing.md)
+* [Contributing](contributing/README.md)

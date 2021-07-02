@@ -1,10 +1,4 @@
-# Contributing to the cluster docs
-
-If you want to contribute to the cluster docs project and make it better, your help is very welcome. Contributing is also a great way to learn more about social coding on Github, new technologies and their ecosystems and how to make constructive, helpful tutorials, information pages, and correction issues.
-
-### How to make a contribution using the Github website
-
-Recommended workflow for beginners to contribute by using the Github website allowing you to add and edit files directly from a browser.
+### How to make a contribution using the Github website {docsify-ignore}
 
 > Open a web browser and navigate to [cluster-docs](https://github.com/SIUE-ITS/cluster-docs) repo.
 
@@ -22,7 +16,7 @@ Recommended workflow for beginners to contribute by using the Github website all
 
 > Add content to the file editing with [markdown](https://www.markdownguide.org/basic-syntax/):
 
-?> A good template is the [`getting-started.md`](https://raw.githubusercontent.com/SIUE-ITS/cluster-docs/main/docs/getting-started.md) file. It contains an example of almost everything with proper formatting. Do not concern yourself with formatting in major detail content matters most. The maintainers will work on this to match the rest of the site when merged.
+?> A good template is the [`getting-started.md`](https://raw.githubusercontent.com/SIUE-ITS/cluster-docs/main/docs/user_guides/getting-started.md) file. It contains an example of almost everything with proper formatting. Do not concern yourself with formatting in major detail content matters most. The maintainers will work on this to match the rest of the site when merged.
 
 ![Github Add File Content](_media/github/github_add_file_content.png ':size=50%')
 
@@ -34,7 +28,7 @@ Recommended workflow for beginners to contribute by using the Github website all
 
 > Edit a file by clicking the file you would like to edit (in this example the contributing page):
 
-?> You can also go directly to the page itself such as [getting-started.md](https://docs.hpc.siue.edu/#/getting-started) then click `Edit on git` at the top right of the page.
+?> You can also go directly to the page itself such as [getting-started.md](https://docs.hpc.siue.edu/#/user_guides/getting-started) then click `Edit on git` at the top right of the page.
 
 ![Github Edit File Select](_media/github/github_edit_file_select.png ':size=50%')
 

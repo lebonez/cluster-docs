@@ -5,8 +5,8 @@ High-performance computing (HPC) aggregates the resources from individual comput
 CC is SIUE's general-purpose HPC cluster, and it is free to use for all SIUE users. For more information on the campus cluster and how to get started, see the Getting Started user guide.
 
 # User Guides
-- [Getting Started](getting-started.md)
-- [Campus Cluster Resource Overview](resource-overview.md)
-- [Running Jobs on SIUE Systems](running-jobs.md)
-- [Slurm Job Script Templates](script-templates.md)
-- [Getting Started with SIUE OnDemand](getting-started-ondemand.md)
+- [Getting Started](user_guides/getting-started.md)
+- [Campus Cluster Resource Overview](user_guides/resource-overview.md)
+- [Running Jobs on SIUE Systems](user_guides/running-jobs.md)
+- [Slurm Job Script Templates](user_guides/script-templates.md)
+- [Getting Started with SIUE OnDemand](user_guides/getting-started-ondemand.md)

@@ -9,17 +9,17 @@ SIUE has one dedicated, high-speed, 40 Gbps data transfer nodes at `dtn.hpc.siue
 ### Command-line tools
 There are a number of command-line interface (CLI) tools to transfer data to and from SIUE storage systems, such as sftp, rsync, and rclone. Each is targeted to specific use cases.
 
-For more information, see the guide for [Transferring Files Using the Command Line](transfer-files-command-line.md).
+For more information, see the guide for [Transferring Files Using the Command Line](user_guides/transfer-files-command-line.md).
 
 ### Graphical tools
 Applications such as Cyberduck, FileZilla, and WinSCP provide a graphical user interface (GUI) to transfer data between a personal computer and a storage solution that allows SFTP connections, including SIUE storage systems. These applications offer drag-and-drop capability, but transfer speeds may be slower compared to using a command-line tool.
 
-For more information, see the guide for [Transferring Files Using a Graphical User Interface](transfer-files-gui.md).
+For more information, see the guide for [Transferring Files Using a Graphical User Interface](user_guides/transfer-files-gui.md).
 
 ### Globus service
 Globus is a data management and transfer service that gives researchers unified access to their data across systems through a web-based GUI. It can be used for data transfers from a personal computer or another HPC center to SIUE storage systems. Relative to other tools, it is useful for large transfers and will provide the best transfer speeds. A CLI for Globus can also be used if desired.
 
-For more information, see the guide for [Transferring Files Using Globus](transfer-files-globus.md).
+For more information, see the guide for [Transferring Files Using Globus](user_guides/transfer-files-globus.md).
 
 ### Which method should I use?
 Below are four example scenarios that provide some insight into which data transfer method you might use for a given situation:

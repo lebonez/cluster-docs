@@ -74,7 +74,7 @@ To log in to the CC login node (also known as the head node), you will need to u
 
 </details>
 
-You can find instructions for setting up SSH keys for faster login [here](setup-ssh-keys.md) on our User Forum.
+You can find instructions for setting up SSH keys for faster login at [setup SSH keys](user_guides/setup-ssh-keys.md).
 
 If you are having difficulty using your SIUE e-ID and/or password, please contact help@siue.edu.
 
@@ -138,13 +138,13 @@ There are three directories where SIUE users can store files and run programs: h
 </details>
 
 ### Transferring files
-SIUE has a dedicated data transfer node at `dtn.hpc.siue.edu`.The DTN is configured for fast file transfers. The node is a [Globus endpoints](transferring-files-globus.md). To access these nodes, use `@dtn.hpc.siue.edu` instead of the normal login node (`@login.hpc.siue.edu`) when logging in:
+SIUE has a dedicated data transfer node at `dtn.hpc.siue.edu`.The DTN is configured for fast file transfers. The node is a [Globus endpoints](user_guides/transfer-files-globus.md). To access these nodes, use `@dtn.hpc.siue.edu` instead of the normal login node (`@login.hpc.siue.edu`) when logging in:
 
 `ssh <username>@dtn.hpc.siue.edu`  
 
 Remember to always transfer files into your home or project directories where you have sufficient disk space.
 
-For more information on transferring files between your local machine and the CC cluster, see the [Data Management and File Transfers](data-management.md) user guides.
+For more information on transferring files between your local machine and the CC cluster, see the [Data Management and File Transfers](user_guides/data-management.md) user guides.
 
 **Between your local machine and CC**  
 There are a number of ways to transfer files between your local machine and CC. These include the commands `sftp`, `scp`, or `rsync` as well as GUI apps like [Cyberduck](https://cyberduck.io/) or [FileZilla](https://filezilla-project.org/).
@@ -194,7 +194,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
 >
 > This loads the default version of Python. Then, for example, enter `python` to begin an interactive Python session.
 >
-> For more information on the software module system, see our [Software Module System user guide](software-and-programming.md).
+> For more information on the software module system, see our [Software Module System user guide](user_guides/software-and-programming.md).
 
 </details>
 
@@ -205,7 +205,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
 
 > Researchers are encouraged to install any software, libraries, and packages necessary for their work. Consult the software's documentation on how to install from source or with pre-built binaries. Additionally, for a more controlled and portable computing environment, consider using a [Singularity container](https://singularity.hpcng.org/user-docs/master/) for your software builds.
 >
-> For more information on installing software, see the [Software and Programming user guides](software-and-programming.md).
+> For more information on installing software, see the [Software and Programming user guides](user_guides/software-and-programming.md).
 
 </details>
 
@@ -224,7 +224,7 @@ A job consists of all the data, commands, scripts, and programs that will be use
 > - Allocates user-requested computing resources
 > - Processes user-submitted jobs
 >
->For more information on creating and submitting Slurm job scripts, see the [Running Jobs](running-jobs.md) user guide. A listing of common Slurm commands can be found [here](https://slurm.schedmd.com/pdfs/summary.pdf).
+>For more information on creating and submitting Slurm job scripts, see the [Running Jobs](user_guides/running-jobs.md) user guide. A listing of common Slurm commands can be found [here](https://slurm.schedmd.com/pdfs/summary.pdf).
 >
 > The compute resources on CC are shared across many projects and users. When a user submits a job with Slurm, resources are divided using a fair share algorithm.
 

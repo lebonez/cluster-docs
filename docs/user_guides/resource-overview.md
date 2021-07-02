@@ -1,7 +1,7 @@
 # Campus Cluster Resource Overview
 SIUE's general use high-performance computing cluster, CC, has over 12 compute nodes available for users to run their jobs on.
 
-For general SIUE system specifications, see our [Getting Started](getting-started.md) page.
+For general SIUE system specifications, see our [Getting Started](user_guides/getting-started.md) page.
 
 ### Partitions and compute nodes
 There are a few Slurm partitions available on CC, each with a separate job queue. These are general-use partitions available to all researchers. The table below describes the intended purpose for each partition.
