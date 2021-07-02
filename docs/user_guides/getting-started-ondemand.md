@@ -86,7 +86,7 @@ Selecting Job Composer in the Jobs menu will open the Jobs page, where you can c
 
 To create a new job, from the Jobs page, click the "+New Job" button:
 
-![Jobs New Job](_media/ondemand/jobs_new_job.png ':size=900')
+![Jobs New Job](_media/ondemand/jobs_new_job.png ':size=50%')
 
 There are four ways to create a job:
 
@@ -96,30 +96,30 @@ There are four ways to create a job:
 
 For example, to create a new job from a job default template, select `New Job -> From Default Template`. then click the blue `Create New Job` button on the left hand side of the page:
 
-![Jobs Created](_media/ondemand/jobs_created.png ':size=900')
+![Jobs Created](_media/ondemand/jobs_created.png ':size=50%')
 
 
 From the table, select the job you just created, then modify and/or add any files to this job by clicking `Edit Files`
 
-![Jobs Edit Files](_media/ondemand/jobs_edit_files.png ':size=900')
+![Jobs Edit Files](_media/ondemand/jobs_edit_files.png ':size=50%')
 
 You will be taken to the File Explorer, where you can upload any files required for your job. See the "Files" section above for instructions on uploading files.
 
 If you need to make changes to a job's settings, select the job and click "Job Options":
 
-![Jobs Options](_media/ondemand/jobs_options.png ':size=900')
+![Jobs Options](_media/ondemand/jobs_options.png ':size=50%')
 
 Here, you can change the job name, cluster, job script, project account, or job array specification:
 
-![Jobs Options Menu](_media/ondemand/jobs_options_menu.png ':size=900')
+![Jobs Options Menu](_media/ondemand/jobs_options_menu.png ':size=50%')
 
 After you've created your job, added files, and changed any settings as necessary, you can submit the job using the green "Submit" button from the Jobs page. You can also similarly use the yellow "Stop" button to stop a running job, or the red "Delete" button to delete a job from your list:
 
-![Jobs Submit Stop Delete](_media/ondemand/jobs_submit_stop_delete.png ':size=900')
+![Jobs Submit Stop Delete](_media/ondemand/jobs_submit_stop_delete.png ':size=50%')
 
 You can also monitor the job status on the Jobs page:
 
-![Jobs Status](_media/ondemand/jobs_status.png ':size=900')
+![Jobs Status](_media/ondemand/jobs_status.png ':size=50%')
 
 Currently, you must reload the page to see job status changes.
 
@@ -127,7 +127,7 @@ Currently, you must reload the page to see job status changes.
 
 OnDemand provides the ability SSH into the [campus cluster](user_guides/getting-started.md) from inside your web browser:
 
-![Shell Links](_media/ondemand/shell_links.png ':size=900')
+![Shell Links](_media/ondemand/shell_links.png ':size=50%')
 
 #### campus cluster
 
@@ -135,7 +135,7 @@ To access the campus cluster:
 
 - Select `Clusters->CC Cluster Shell Access` from the drop-down. You will see a password authentication prompt upon launching the shell:
 
-![Shell Prompt](_media/ondemand/shell_prompt.png ':size=900')
+![Shell Prompt](_media/ondemand/shell_prompt.png ':size=50%')
 
 Shell access will be connected to the campus cluster login node. For detailed information on the campus cluster, see the [Getting Started](user_guides/getting-started.md) user guide.
 
