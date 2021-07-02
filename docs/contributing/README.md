@@ -11,7 +11,7 @@ If you want to contribute to the cluster docs project and make it better, your h
 - [Contribute using the local Git command line](contributing/github-cli.md)
   - Recommended for advanced users with knowledge of Git commands or users that would like to learn about using purely command line.
 
-- [Contribute simply by writing a document using an application like Microsoft Office Word or Notepad](#contributing)
+- Contribute using an application like Microsoft Office Word or Notepad
   - Recommended for users who would like to contribute without using or learning Git.
   - There are no specific guides on how to do this. Create a typical document with all content including images, then email the document to its-cluster-support@siue.edu.
   - Formatting and pushing to the [Github cluster-docs repo](https://github.com/SIUE-ITS/cluster-docs) will be done by the ITS cyberinfrastruture team.
