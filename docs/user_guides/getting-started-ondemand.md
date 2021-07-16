@@ -23,31 +23,31 @@ Every user will have access to their `/home` and `/project` directories. If you 
 
 You can access the File Explorer from the main OnDemand dashboard. Select the file system you would like to access:
 
-![Files Links](_media/ondemand/files_links.png ':size=900')
+![Files Links](_media/ondemand/files_links.png ':size=50%')
 
 After selecting a directory (in this case, the user's home directory), OnDemand will present a graphical representation of the directory and all its contents:
 
-![Files Content](_media/ondemand/files_content.png ':size=900')
+![Files Content](_media/ondemand/files_content.png ':size=50%')
 
 #### Navigation
 From your selected directory, you can switch to another by backtracking through the path near the top of the window and selecting the previous directory you wish to browse:
 
-![Files Directory](_media/ondemand/files_directory.png ':size=900')
+![Files Directory](_media/ondemand/files_directory.png ':size=50%')
 
 In addition, you can use the "Change Directory" option in the top menu to type the path you wish to navigate to:
 
-![Files Change Directory](_media/ondemand/files_change_directory.png ':size=900')
+![Files Change Directory](_media/ondemand/files_change_directory.png ':size=50%')
 
 On the left side of the screen is a tree view of the directory structure. You can navigate this tree the same way you might on a normal desktop GUI to select the folder you wish to use.
 
 #### Uploading and downloading files
 There are several ways to upload files. The first is to simply navigate to the desired destination directory in OnDemand, and then drag the file or directory from your local computer to the OnDemand browser window. You can also click the "Upload" button to open a dialog that will allow you to navigate your local computer and select which files you want to upload:
 
-![Files upload_file](_media/ondemand/files_upload_file.png ':size=900')
+![Files upload_file](_media/ondemand/files_upload_file.png ':size=50%')
 
  You can also click the "Upload" button to open a dialog that will allow you to navigate your local computer and select which directories you want to upload:
 
-![Files upload_directory](_media/ondemand/files_upload_directory.png ':size=900')
+![Files upload_directory](_media/ondemand/files_upload_directory.png ':size=50%')
 
 To download files, select the file(s) in the OnDemand directory that you wish to download, and then use the "Download" button. If you select multiple files ("control+click" or "shift+click") or a folder, OnDemand will zip the files and download a single zip archive to your computer.
 
@@ -55,7 +55,7 @@ To download files, select the file(s) in the OnDemand directory that you wish to
 
 Most file operations can be accomplished by selecting a file in the File Explorer and choosing the desired operation from the main menu:
 
-![Files Operations](_media/ondemand/files_operations.png ':size=900')
+![Files Operations](_media/ondemand/files_operations.png ':size=50%')
 
 > You have the ability to perform the following file operations in OnDemand:
 >
@@ -70,12 +70,12 @@ Most file operations can be accomplished by selecting a file in the File Explore
 ### Jobs
 OnDemand provides two related job management tools. The Active Jobs tool allows you to monitor queued and running jobs and the Job Composer tool allows you to create and submit jobs via your web browser.
 
-![Jobs Links](_media/ondemand/jobs_links.png ':size=900')
+![Jobs Links](_media/ondemand/jobs_links.png ':size=50%')
 
 #### Active Jobs
 The "Active Jobs" tool will show you all jobs currently in the queue (running or queued), regardless of how the jobs were submitted:
 
-![Jobs Active Dashboard](_media/ondemand/jobs_active_dashboard.png ':size=900')
+![Jobs Active Dashboard](_media/ondemand/jobs_active_dashboard.png ':size=50%')
 
 You can use the dropdown options at the top of the page to toggle between your jobs, all jobs, and the different clusters. The screenshot above shows all jobs clusters. You can also use the "Filter" tool to filter jobs based on systems campus cluster, status (running, queued, or hold), user, project account, etc.
 
@@ -148,7 +148,7 @@ The Interactive Apps section of OnDemand is a selection of apps that range from 
 - [MATLAB](user_guides/interactive-matlab.md)
 - [Jupyter](user_guides/jupyter-lab.md)
 
-![Interactive Apps Links](_media/ondemand/interactive_apps_links.png)
+![Interactive Apps Links](_media/ondemand/interactive_apps_links.png ':size=50%')
 
 ### Additional information
 - [OnDemand documentation](https://www.osc.edu/resources/online_portals/ondemand)
